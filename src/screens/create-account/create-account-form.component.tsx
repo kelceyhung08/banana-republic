@@ -67,8 +67,6 @@ function CreateAccountForm() {
     });
   };
 
-  console.log(formData);
-
   return (
     <FormContainer>
       <Form>
@@ -100,13 +98,6 @@ function CreateAccountForm() {
           onChange={handleGenderChange}
           label="Gender"
         />
-        {/* <DatePickerInputComponent
-          label="Date of Birth"
-          value={formData.dob}
-          name="dob"
-          id="dob"
-          onChange={handleDateChange}
-        /> */}
         <InputComponent
           type={dobInputType}
           label="Date of Birth"

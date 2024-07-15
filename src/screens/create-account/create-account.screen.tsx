@@ -20,7 +20,6 @@ function CreateAccountScreen() {
   const SidePanelRef = useRef<HTMLDivElement>(null);
 
   const toggleInfo = () => {
-    console.log("toggleInfo");
     setShowInfo(!showInfo);
   };
 
