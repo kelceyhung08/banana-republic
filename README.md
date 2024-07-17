@@ -2,6 +2,9 @@
 
 This is a frontend technical test 
 
+Hosted on stackblitz: 
+https://stackblitz.com/~/github.com/kelceyhung08/banana-republic
+
 
 ## Getting started
 Created using Node v20 and pnpm
